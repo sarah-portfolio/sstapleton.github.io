@@ -1,21 +1,22 @@
-# Museum Portfolio Starter (Static HTML)
+# Portfolio
 
-This is a lightweight, no-build portfolio template designed like a calm museum: fast to browse, but deep if someone wants detail.
 
-## Quick deploy (GitHub Pages)
 
-**Recommended:** create a *user site* repository so links work as written.
+## GitHub Pages
 
-1. Create a repo named: `YOUR_GITHUB_USERNAME.github.io`
+**Recommended:** a *user site* repository was created so that links work as written.
+
+1. Create a repo named: `MY_GITHUB_USERNAME.github.io`
 2. Upload these files to the repo root.
 3. In GitHub → **Settings → Pages**:
    - Source: `Deploy from a branch`
    - Branch: `main` (root)
-4. Your site will appear at: `https://YOUR_GITHUB_USERNAME.github.io/`
+4. My site is at: `https://MY_GITHUB_USERNAME.github.io/`
 
-## Edit the navigation labels
+## Edit the navigation labels NOTES
 
-Navigation lives inside each page for now (simple static approach).  
+Navigation is found inside each page.  
+
 Search for the block that begins with:
 
 ```html
