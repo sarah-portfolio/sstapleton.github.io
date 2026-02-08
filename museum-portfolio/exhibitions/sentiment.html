@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sentiment Analysis (NLP) • Sarah Stapleton</title>
+  <meta name="description" content="Museum-inspired portfolio for analysis & science." />
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div class="brand">
+      <div class="name">Sarah Stapleton</div>
+      <div class="tag">Postdoctoral Researcher (Statistics &amp; Data Science) • Applied ML • Liverpool, UK</div>
+    </div>
+
+    <nav class="nav" aria-label="Primary">
+      <a href="/" aria-label="Home">Home</a>
+
+      <details class="nav-dd">
+        <summary>Analysis &amp; Science ▾</summary>
+        <div class="dd" role="menu">
+          <a href="/analysis-and-science/">Featured (landing)</a>
+          <a href="/analysis-and-science/health.html">Health Analytics &amp; ML</a>
+          <a href="/analysis-and-science/nlp.html">NLP &amp; Sentiment</a>
+          <a href="/analysis-and-science/anomaly.html">Anomaly Detection</a>
+          <a href="/analysis-and-science/stats.html">Statistical Modelling</a>
+        </div>
+      </details>
+
+      <details class="nav-dd">
+        <summary>Skills ▾</summary>
+        <div class="dd" role="menu">
+          <a href="/skills/">Skills Matrix</a>
+          <a href="/skills/python.html">Python</a>
+          <a href="/skills/r.html">R</a>
+          <a href="/skills/ml.html">Machine Learning</a>
+          <a href="/skills/mlops.html">Reproducibility &amp; Git</a>
+        </div>
+      </details>
+
+      <details class="nav-dd">
+        <summary>Repertoire ▾</summary>
+        <div class="dd" role="menu">
+          <a href="/repertoire/">Archives (overview)</a>
+          <a href="/repertoire/code-library.html">Code Library</a>
+          <a href="/repertoire/notebooks.html">Notebooks &amp; Walkthroughs</a>
+          <a href="/repertoire/methods-notes.html">Methods Notes</a>
+          <a href="/repertoire/reproducibility.html">Reproducibility</a>
+        </div>
+      </details>
+
+      <details class="nav-dd">
+        <summary>Writing ▾</summary>
+        <div class="dd" role="menu">
+          <a href="/writing/">Reading Room</a>
+          <a href="/writing/essays.html">Essays</a>
+          <a href="/writing/notes.html">Technical Notes</a>
+        </div>
+      </details>
+
+      <details class="nav-dd">
+        <summary>About ▾</summary>
+        <div class="dd" role="menu">
+          <a href="/about/">Bio</a>
+          <a href="/cv/">CV</a>
+          <a href="/about/contact.html">Contact</a>
+        </div>
+      </details>
+    </nav>
+  </div>
+</div>
+
+<main class="container">
+  <section class="page-title">
+    <div class="kicker">Exhibition</div>
+    <h1>Sentiment Analysis (NLP)</h1>
+    <p>Text • Evaluation • Robustness</p>
+  </section>
+
+  <section class="prose">
+    <div class="callout">
+      <strong>Poster talk:</strong> open the poster-friendly view for quick scanning:
+      <a href="/exhibitions/sentiment-poster.html">Poster page →</a>
+    </div>
+
+    <h2>Abstract</h2>
+    <p><em>Replace this with a crisp 6–8 line abstract: the decision it supports, your approach, and the headline result.</em></p>
+
+    <h2>Context &amp; Question</h2>
+    <ul>
+      <li>What real-world decision is being supported?</li>
+      <li>What does “good” look like? (metrics, constraints, stakeholders)</li>
+    </ul>
+
+    <h2>Data</h2>
+    <ul>
+      <li>Sources, schema, cohort definition, missingness, leakage checks</li>
+      <li>Governance note (especially if protected environments)</li>
+    </ul>
+
+    <h2>Methods</h2>
+    <ul>
+      <li>Baselines → improvements (justify each step)</li>
+      <li>Explainability / uncertainty / calibration if relevant</li>
+    </ul>
+
+    <h2>Evaluation</h2>
+    <ul>
+      <li>Chosen metrics and why</li>
+      <li>Error analysis slices (where it fails, and why that matters)</li>
+    </ul>
+
+    <h2>Results</h2>
+    <p><em>Insert 1–3 key plots. If you have a poster PDF, embed it here too.</em></p>
+
+    <h2>Reproducibility</h2>
+    <ul>
+      <li>Link to GitHub repo (code, environment files, tests)</li>
+      <li>How to run (3–6 steps)</li>
+    </ul>
+
+    <h2>What I’d do next</h2>
+    <ul>
+      <li>One research extension</li>
+      <li>One engineering extension</li>
+      <li>One stakeholder/impact extension</li>
+    </ul>
+
+    <div style="margin-top:14px;">
+      <span class="small">Tags:</span>
+      <div class="tags" style="margin-top:8px;"><span class="tag">NLP</span><span class="tag">Python</span></div>
+    </div>
+
+    <div style="margin-top:16px; display:flex; gap:10px; flex-wrap:wrap;">
+      <a class="btn primary" href="#" title="Add your repo URL">GitHub Repo →</a>
+      <a class="btn" href="/analysis-and-science/">Back to Analysis &amp; Science →</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div>Python • R • Bayesian modelling • NLP • Anomaly detection • Data governance • Reproducible pipelines</div>
+    <div style="margin-top:8px;">© <span id="y"></span> Sarah Stapleton • Built for fast browsing and poster-talk sharing</div>
+  </div>
+</footer>
+<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+<script src="/assets/nav.js" defer></script>
+</body>
+</html>
